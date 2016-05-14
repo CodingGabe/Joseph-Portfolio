@@ -76,7 +76,7 @@ aside {
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: font-family: 'Asap', sans-serif;
-    background-color: #fff;
+    background-color: #222;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -126,6 +126,7 @@ aside {
 .feature-content {
     padding: 0;
     overflow: hidden;
+    text-align: left;
 }
 
 .feature-content hr {
@@ -139,9 +140,20 @@ aside {
     font-weight: bold;
 }
 
+.feature-content p {
+    margin: 0;
+    color: #666;
+}
+
+#circle {
+    border-radius: 50%;
+}
 
 .feature-content img {
-    margin-bottom: -100px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .blockquote {
@@ -155,6 +167,18 @@ aside {
     float: left;
     margin-right: 10px;
     display: block;
+}
+
+.banger {
+    font-family: 'Bangers', cursive;
+}
+
+#contact a {
+    color: white;
+}
+
+#contact a:hover {
+    color: #888;
 }
 
 
@@ -185,7 +209,7 @@ aside {
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: #5b427a;
+        background-color: #222;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
@@ -195,7 +219,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #222;
+        color: #fff;
     }
 
     .navbar-default.affix .nav > li>a,
